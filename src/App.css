@@ -1,0 +1,183 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar{
+  background-color: #7749f8;
+height:60px;
+}
+.titlebar{
+  color:white;
+}
+.iconpanier{
+  position: absolute;
+width: 33px;
+height: 34px;
+right: 100px;
+color:white;
+top:20px;
+
+}
+#badge{
+  position: absolute;
+  right: 90px;
+  top:10px;
+ 
+}
+.filter{
+  box-sizing: border-box;
+  position: absolute;
+width: 302px;
+height: 38px;
+background: #FFFFFF;
+border: 1px solid #CED4DA;
+border-radius: 4px;
+top : 50px;
+left:100px;
+}
+
+#ser{
+  box-sizing: border-box;
+  width:653px;
+  position: absolute;
+  top : 110px;
+  left:700px;
+  height: 60px;
+ 
+}
+.descCard{
+  background-color: #dee2e6;
+  text-align: justify;
+
+}
+
+
+.rowarticle{
+  padding-bottom: 20px;
+}
+
+.addcarte {
+  list-style: none;
+	transform: translateY(40px);
+	transition: 0.5s;
+	opacity: 0;
+}
+.article:hover .addcarte {
+	transform: translateY(0px);
+	opacity: 1;
+}
+.addcarte{
+   width :100%;
+padding: 24px;
+position: absolute;
+background-color: #7749f8;
+left:1px;
+ border: #7749f8;
+ border-radius: 2px;
+ color:white;
+
+
+
+}
+
+
+.shoppcard{
+  width:25%;
+  border:solid 1px;
+  position: fixed;
+  right: 0;
+  background-color:white;
+}
+.headershoppingcarte{
+  display:flex;
+  justify-content: space-between;
+}
+
+.articleadd{
+  display: flex;
+ 
+
+}
+
+.imgshopp{
+  width:100px;
+  border: solid 1px  #CED4DA;
+  margin: 2px;
+}
+
+.priceshopp{
+  display:flex;
+  margin: 10px;
+}
+
+.addarticle{
+  display:flex;
+  justify-content: space-between;
+  margin: 20px;
+  border-bottom:solid 1px  #CED4DA;
+  border-top: solid 1px #CED4DA;
+}
+
+.totalshopp{
+  border-bottom:solid 1px  #CED4DA;
+  border-top: solid 1px #CED4DA;
+}
+
+.counterside{
+  margin-right: 10px;
+}
+
+
+
+.gridcontainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  margin-top: 200px;
+  margin-left: 100px;
+  }
+
+  .article{
+   
+    margin: 20px;
+
+  }
+
+
